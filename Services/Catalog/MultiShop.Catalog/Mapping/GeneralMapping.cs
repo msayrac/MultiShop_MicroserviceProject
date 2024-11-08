@@ -11,6 +11,7 @@ namespace MultiShop.Catalog.Mapping
 	{
 		public GeneralMapping()
 		{
+
 			CreateMap<Category, ResultCategoryDto>().ReverseMap();
 			CreateMap<Category, CreateCategoryDto>().ReverseMap();
 			CreateMap<Category, UpdateCategoryDto>().ReverseMap();
